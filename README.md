@@ -204,3 +204,28 @@ do{
 //
 
 
+
+//for-of loop
+let nam="INFINITEZEN Coder",lenghth=0;
+for(let i of nam)
+{
+    console.log("letter=",i);
+    lenghth++;
+}
+console.log("Lenghth=",lenghth);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
