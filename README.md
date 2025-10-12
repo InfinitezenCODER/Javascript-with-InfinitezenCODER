@@ -161,6 +161,23 @@ console.log(Result);
 console.log("Starting Loops");
 
 
+//For loop.
+let i;
+for(i=1;i<2;i++)
+{
+    console.log("I am going to nail it..\n")
+}
+console.log("Loop has ended");
+
+
+let sum;
+for(let j=1,sum=0;j<=5;j++)
+{
+    sum=sum+j;
+    console.log("Total summation is : ",sum);
+}    
+console.log("The loop has ended");
+
 
 
 
