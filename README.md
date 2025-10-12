@@ -40,3 +40,25 @@ console.log(Student.age);
 Student["age"]= Student["age"]+2;
 console.log(Student.age);
 
+const Profile= 
+ {
+    User_name : "shradhakhapra",
+    isFollow : true,
+    Posts : 195,
+    Followers : 569000 ,
+    Following : 4 ,
+    Name : "Shradha_Khapra",
+    Profession : "Enterpreneur",
+    Experience : "Ex-Microsoft DRDO",
+    Instituition : "Apnacollege",
+    Moto : "TO EDUCATE SOMEONE IS THE HIGHEST PRIVILEGE", 
+};
+
+
+console.log (Profile.Name);
+// console.log (Profile ["Experience"]);
+
+
+
+// This Part Will Not be Executed.
+/* This Part Will not be Executed. */
