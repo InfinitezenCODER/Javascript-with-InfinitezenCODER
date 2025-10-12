@@ -1,2 +1,42 @@
 # Javascript-with-InfinitezenCODER
 This will be a special one..
+<br>
+//name,y,$,age,Student,Student2,Profile,a,b,c,d,num,mode,color,Age,Result,
+console.log("This is my first  Javascript Program Line.");
+let name="InfinitezenCODER";//Always Declare a variable using let.
+const pi=3.14;
+name="debuugger";//Value of name is changed.
+console.log(name);
+let y=undefined;
+console.log(y);
+$="American";//Variable names can be started with $ and _.
+{
+let age=19;
+console.log(age);
+}//age variable is block scoped here.
+{
+let age=20;
+console.log(age);
+}
+
+const Student=            //Student is object here.
+{
+ fullName:"SWASTIK PATRA", //This is teh way to write a key.
+ age: 19,
+ college: "VSSUT",
+ Experience: "Fresher", 
+};
+const Student2=
+{
+ fullName:"SWASTIK PATRA",
+ age: 19,
+ Nationality: "Indian",
+ Fan : "Zlatan Ibrahimovic",
+};
+console.log(Student2.Fan);//Way to access the key value.
+console.log(Student["age"]);//Another way to access the key value.
+Student["age"]= Student["age"]+1;
+console.log(Student.age);
+Student["age"]= Student["age"]+2;
+console.log(Student.age);
+
