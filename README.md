@@ -215,6 +215,31 @@ for(let i of nam)
 console.log("Lenghth=",lenghth);
 
 
+//for-in loop // Return keys.
+let student = {
+NAME: "Swastik",
+isPass: true,
+
+};
+
+for(let i in student){
+    console.log("key=",i);
+    console.log("key=",i,"value=",student[i]);
+}
+
+
+//Designing a small luck based game using while loop.
+//Practice Qs1
+//let gameNUM=19;
+//let userNUM=prompt("Guess the Game Number");
+//while(userNUM!=gameNUM)
+  //  {
+    //console.log("Better luck Next time.");
+    //userNUM = prompt("Enter another Number:"); // prompt se jo bhi input,ata hai woh string hota hai.So to check the equality of string we can not give '==='.
+    //}
+
+//console.log("Congratulations.You nailed it this Time.")
+
 
 
 
