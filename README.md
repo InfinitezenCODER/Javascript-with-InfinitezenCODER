@@ -147,6 +147,10 @@ else{
 console.log(color);
 
 
+//Ternary Operator
+let Age=19,Result;
+Result= Age>=18 ? "Adult" : "Not Adult"
+console.log(Result);
 
 
 
