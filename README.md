@@ -78,3 +78,28 @@ console.log("a**b =", a**b);
 console.log("a++=", a++);
 console.log("a=", a);
 console.log("++a=", ++a);
+
+
+
+//Assignment Operators
+
+//Comparison Operators
+let c=7, d=8;
+console.log("c==d",c==d);
+console.log("c!=d",c!=d);
+console.log("c===d",c===d);
+console.log("c!==d",c!==d);
+let e="9";
+console.log("d===e",d===e);
+console.log("d==e",d==e);
+
+
+
+
+
+
+
+
+
+
+
