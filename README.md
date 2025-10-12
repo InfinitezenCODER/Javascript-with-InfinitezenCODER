@@ -179,5 +179,20 @@ for(let j=1,sum=0;j<=5;j++)
 console.log("The loop has ended");
 
 
+//While Loop
+let z=1;
+while(z<=3)
+{
+    console.log("z=",z);
+    z++;
+}
+
+let n=21;
+while(n<=20)
+{
+    console.log("n=",n);
+    n++;
+}
+
 
 
