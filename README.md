@@ -103,6 +103,49 @@ console.log("cond1 && cond2 = ",cond1 && cond2);
 console.log("cond1 || cond2 = ",cond1 || cond2);
 
 
+//Conditional Statements.
+
+//If statement
+let age;
+if (age>=18)
+{
+  console.log("You can vote");
+}
+
+//If-else statement
+let num=5;
+if (num%2==0)
+{
+    console.log("Even number")
+}
+else{
+    console.log("Odd number")
+}
+
+//If-Else if statement
+let mode="light";
+let  color;
+if (mode==="dark")
+{
+    color = "blck";
+}
+else if(mode==="light")
+{
+    color="white";
+}
+else if(mode==="smoggy")
+{
+    color="grey";
+}
+else if(mode==="Foggy")
+{
+    color="light yellow";
+}
+else{
+    color="light green";
+}
+console.log(color);
+
 
 
 
