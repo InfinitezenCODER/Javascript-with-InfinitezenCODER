@@ -195,4 +195,12 @@ while(n<=20)
 }
 
 
+//Do-while Loop
+let p=6;
+do{
+    console.log("p=",p);
+    p++;
+}while(p<=5);
+//
+
 
